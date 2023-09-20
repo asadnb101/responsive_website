@@ -6,22 +6,24 @@
 html,body{
     height: 100%;
     width: 100%;
+    
 }
 #main{
     position: relative;
     overflow: hidden;
+    background-color: #0b48ed;
 }
 @font-face {
     font-family: a;
-    src: url(./images/jost-variable.ttf);
+    src: url(./jost-variable.ttf);
 }
 @font-face {
     font-family: b;
-    src: url(./images/KFOlCnqEu92Fr1MmEU9fBBc4\ \(1\).ttf);
+    src: url(./KFOlCnqEu92Fr1MmEU9fBBc4\ \(1\).ttf);
 }
 @font-face {
     font-family: c;
-    src: url(./images/KFOmCnqEu92Fr1Mu4mxK\ \(1\).ttf);
+    src: url(./KFOmCnqEu92Fr1Mu4mxK\ \(1\).ttf);
 }
 #page1{
     height: 100vh;
@@ -127,7 +129,6 @@ html,body{
     position: relative;
     height: 100vh;
     width: 100vw;
-    background-color: red;
 }
 #page3>canvas{
     max-height: 100vh;
